@@ -26,7 +26,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
 createChatRoomAndStartConversation(String userNmae){
       List<String> users = [ userNmae ,];
-        databaseMethods.createChatRoom(chatRoomId, chatRoomMap)
+        databaseMethods.createChatRoom(chatRoomId, chatRoomMap);
 
     }
 
